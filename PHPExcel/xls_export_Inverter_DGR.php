@@ -1,0 +1,163 @@
+<?php
+/**
+ * PHPExcel
+ *
+ * Copyright (C) 2006 - 2013 PHPExcel
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ *
+ * @category   PHPExcel
+ * @package    PHPExcel
+ * @copyright  Copyright (c) 2006 - 2013 PHPExcel (http://www.codeplex.com/PHPExcel)
+ * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
+ * @version    1.7.9, 2013-06-02
+ */
+
+/** Error reporting */
+//error_reporting(E_ALL);
+
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
+if (PHP_SAPI == 'cli')
+    die('This example should only be run from a Web Browser');
+
+/** Include PHPExcel */
+require_once 'Classes/PHPExcel.php';
+
+// require_once dirname(__FILE__) . '/../Classes/PHPExcel.php';
+
+ if($test_Excel==''){
+  $test_Excel=$_REQUEST['tst'];
+  }
+
+  if(isset($_REQUEST['rd'])){
+    $rd_Email=$_REQUEST['rd'];
+    $rd_date = date('Y-m-d',strtotime($rd_Email));
+    $file_down_name= date('j-F-Y',strtotime($rd_Email)).'_'.$solar_plant_name_replace_space.'_DGR.xls';
+  }else{
+      $rd_date = date('Y-m-d');
+      $file_down_name= date('j-F-Y').'_'.$solar_plant_name_replace_space.'_DGR.xls';
+  }
+$solar_plant_id=$plant_id=$test_Excel;
+
+include '/home/cmssterlingandwi/public_html/Source/xconfig.php';
+include '/home/cmssterlingandwi/public_html/Source/web/plant/plant_id_details.php';
+
+
+$solar_plant_name_replace_space = str_replace(" ", "_", $solar_plant_name);
+
+function createColumnsArray($end_column, $first_letters = '')
+{
+  $columns = array();
+  $length = strlen($end_column);
+  $letters = range('A', 'Z');
+  foreach ($letters as $letter) {
+  $column = $first_letters . $letter;
+  $columns[] = $column;
+  if ($column == $end_column)
+     return $columns;
+     }
+  foreach ($columns as $column) {
+   if (!in_array($end_column, $columns) && strlen($column) < $length) {
+          $new_columns = createColumnsArray($end_column, $column);
+          $columns = array_merge($columns, $new_columns);
+         }
+         }
+        return $columns;
+      }
+
+$alpa=createColumnsArray('ZZ');
+
+
+$objPHPExcel = new PHPExcel();
+
+
+
+$objPHPExcel->createSheet();
+// $objPHPExcel->setActiveSheetIndex(1)->getTabColor()->setRGB('9EFF3C');
+
+// include'DGR/DGRSummary.php';
+// $objPHPExcel->getActiveSheet()->setTitle('DGR Summary');
+
+
+$objPHPExcel->createSheet();
+$objPHPExcel->setActiveSheetIndex(1)->getTabColor()->setRGB('1FFF1F');
+include'DGR/DGR.php';
+$objPHPExcel->getActiveSheet()->setTitle('DGR');
+
+
+// $objPHPExcel->createSheet();
+// $objPHPExcel->setActiveSheetIndex(2)->getTabColor()->setRGB('C8DDF7');
+// include'DGR/Data_Entry.php';
+// $objPHPExcel->getActiveSheet()->setTitle('Data_Entry');
+
+$objPHPExcel->createSheet();
+$objPHPExcel->setActiveSheetIndex(2)->getTabColor()->setRGB('A5FF79');
+include'DGR/AvailibilityReport.php';
+$objPHPExcel->getActiveSheet()->setTitle('Availibility Report');
+
+// $objPHPExcel->createSheet();
+// $objPHPExcel->setActiveSheetIndex(4)->getTabColor()->setRGB('FFFF0C');
+// include'DGR/meterreading.php';
+// $objPHPExcel->getActiveSheet()->setTitle('33KV Meter Reading');
+
+$objPHPExcel->createSheet();
+$objPHPExcel->setActiveSheetIndex(3)->getTabColor()->setRGB('A2BCDC');
+include'DGR/PlantBD.php';
+$objPHPExcel->getActiveSheet()->setTitle('Plant BD');
+
+$objPHPExcel->createSheet();
+$objPHPExcel->setActiveSheetIndex(4)->getTabColor()->setRGB('A2BCDC');
+include'DGR/GridDownReport.php';
+$objPHPExcel->getActiveSheet()->setTitle('Grid Down Report');
+
+
+$objPHPExcel->createSheet();
+$objPHPExcel->setActiveSheetIndex(5)->getTabColor()->setRGB('0C2A67');
+include'DGR/LoadShedding.php';
+$objPHPExcel->getActiveSheet()->setTitle('Load Shedding');
+
+
+
+
+$objPHPExcel->setActiveSheetIndex(0)->getTabColor()->setRGB('E77F28');
+
+include'DGR/DGRSummary.php';
+
+$objPHPExcel->getActiveSheet()->setTitle('Ex-Summary');
+
+
+
+// $file_down_name= date('j-F-Y').'_'.$solar_plant_name_replace_space.'_DGR.xls';
+
+// $file_down_name= date('j-F-Y').'_report.xls';
+// Redirect output to a client’s web browser (Excel5)
+header('Content-Type: application/vnd.ms-excel');
+header('Content-Disposition: attachment;filename="'.$file_down_name.'"');
+header('Cache-Control: max-age=0');
+// If you're serving to IE 9, then the following may be needed
+header('Cache-Control: max-age=1');
+
+// If you're serving to IE over SSL, then the following may be needed
+header ('Expires: Mon, 26 Jul 1997 05:00:00 GMT'); // Date in the past
+header ('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT'); // always modified
+header ('Cache-Control: cache, must-revalidate'); // HTTP/1.1
+header ('Pragma: public'); // HTTP/1.0
+$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
+$objWriter->save('/home/cmssterlingandwi/public_html/zemail_data/'.$file_down_name);
+
+$objWriter->save('php://output');?>
+
+

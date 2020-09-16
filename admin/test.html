@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    function EnableDisableTextBox(btnPassport) {
+        var txtPassportNumber = document.getElementById("txtPassportNumber");
+        if (btnPassport.value == true) {
+            txtPassportNumber.removeAttribute("disabled");
+        } else {
+            txtPassportNumber.setAttribute("disabled", "disabled");
+        }
+    }
+</script>
+<span>Do you have Passport?</span>
+<input type="button" value="Yes" onclick="EnableDisableTextBox(this)" />
+<hr />
+<div>
+    Passport Number:
+    <input type="text" id="txtPassportNumber" disabled = "disabled" />
+</div>

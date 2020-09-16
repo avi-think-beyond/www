@@ -1,0 +1,517 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+body{font-family: 'Quicksand', sans-serif !important;}
+.top_link
+{
+padding-top:1px;
+padding-right:1px;
+padding-bottom:1px;
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: #ce0000;
+text-decoration:none;
+text-align: right;
+}
+.top_link:hover {
+color:#000408;
+text-decoration: none;
+}
+.autocomplete_completionListElement 
+{  
+	visibility : hidden;
+	margin : 2px!important;
+	background-color : white;
+	color : windowtext;
+	border : 1px solid black;
+	cursor : 'default';
+	overflow : auto;
+	height : 150px;
+    text-align : left; 
+    list-style-type : none;
+    width : auto;
+    padding : 1px 1px 1px 1px;
+}
+
+
+
+.name33
+{
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: #000408;
+text-decoration: underline;
+text-align: center;
+}
+.btn1{
+background-image: url('../imagesnew/btn1.jpg');
+width:87px;
+height:21px;
+background-repeat: repeat-x;
+border: 1px solid #ffffff;
+color: #FFFFFF;
+text-decoration: none;
+float:left; font-style:normal; font-variant:normal; font-weight:bold; font-size:12px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+.name2
+{
+font: bold 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: #8c928c;
+text-decoration: none;
+text-align: right;
+padding-top:10px;
+padding-left:10px;
+}
+
+
+.frm_bg {
+background-color:#f9f9f9; 
+border-left:1px solid  #8e908e;
+border-right:1px solid  #8e908e;
+border-top:1px solid  #8e908e;
+border-bottom:1px solid  #8e908e;
+
+}
+
+.frm_bg2 {
+background-color:#f7f7f7; 
+border:1px solid  #8e908e;
+}
+.cell1{
+background-image:url('../images1/menu_mid.jpg');
+height:25px;
+background-repeat:repeat-x;
+color: White;
+padding-left:10px;
+padding-right:30px;
+padding-bottom:3px;
+padding-top:2px;
+text-align:center; font-style:normal; font-variant:normal; font-weight:bold; font-size:12px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+.heading1{
+background-image:url('../images2/form_heading.jpg');
+height:30px;
+background-repeat:repeat-x;
+color: Maroon;
+padding-left:10px;
+padding-right:30px;
+padding-bottom:5px;
+text-align:center; font-style:normal; font-variant:normal; font-weight:bold; font-size:15px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+.balancebg{
+/*background-image:url('../images2/form_heading.jpg');*/
+height:30px;
+background-repeat:repeat-x;
+color: Navy;
+padding-left:10px;
+padding-right:30px;
+padding-bottom:5px;
+text-align:left; font-style:normal; font-variant:normal; font-weight:bold; font-size:11px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+
+.Compulsory{
+background-color:#efefef;
+height:20px;
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: gray;
+padding-top:1px;
+padding-left:10px;
+text-align:Left; border: 1px solid hsl(0, 0%, 80%);
+}
+
+.Compulsory2{
+border-top:1px solid #8c928c;
+background-image:url('../images2/form_heading3.jpg');
+height:25px;
+color: #ce0000;
+padding-left:10px;
+text-align:left; font-style:normal; font-variant:normal; font-weight:bold; font-size:13px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+
+.radio{
+font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#3b3e3b;
+}
+
+.txt1{
+font: normal 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: #5c595c;
+text-decoration: none;
+text-align: justify;
+padding:10px;
+padding-right:10px;
+padding-bottom:10px;
+border-bottom:1px solid #666666;
+}
+
+.login{
+font: bold 14px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#ce0000;
+padding-left:120px;
+padding-right:20px;
+padding-bottom:10px;
+text-decoration:underline;
+}
+
+.wrong{
+font:  bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#ce0000;
+padding-left:32px;
+padding-right:5px;
+padding-bottom:2px;
+
+}
+
+.tabelcell{
+font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#3b3e3b;
+margin-top:0px;
+padding-top:0px;
+padding-right:1px;
+padding-bottom:0px;
+}
+.drop_list{
+border:#5a0000 1px solid;
+background-color:#ffffff;
+width:205px;
+height:275px;
+font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#000000;
+margin-right:0px;
+margin-left:5px;
+
+}
+.drop_down{
+border:#5a0000 1px solid;
+background-color:#ffffff;
+width:180px;
+height:25px;
+font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#000000;
+margin-right:0px;
+margin-left:2px;
+margin-bottom:1px;
+}
+
+.listmenu{
+width:205px;
+border:1px solid  #000000;
+color:#000000;
+margin-right:0px;
+margin-left:5px;
+margin-bottom:5px;
+background-color:#f9f9f9; 
+}
+.feedback_lstbox{
+                 
+width:310px;
+color:#000000;
+    padding: 2px 0px 2px 2px;
+    margin: 1px;
+background-color:#ffffff;
+
+}
+
+#ctl00_ContentPlaceHolder1_GridDebit thead tr{text-decoration:none !important; }
+#ctl00_ContentPlaceHolder1_GridDebit thead tr th{color:#fff !important; font-weight:bold;}
+.txttoby {
+display: block;
+width: 90%;
+height: 25px;
+padding: 2px 12px;
+line-height: 1.42857143;
+color: hsl(0, 0%, 33%);
+background-color: hsl(0, 100%, 100%);
+background-image: none;
+border: 1px solid hsl(0, 0%, 80%);
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, 0.075);
+box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, 0.075);
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+box-shadow: none;
+border: 1px solid hsl(0, 0%, 73%);
+}
+
+.txttobygrid {
+display: block;
+    width: 100%;
+    height: 22px;
+    padding: 0px 6px;
+    /* line-height: 1.42857143; */
+    color: hsl(0, 0%, 33%);
+    background-color: hsl(0, 100%, 100%);
+    background-image: none;
+    border: 1px solid hsl(0, 0%, 80%);
+    /* border-radius: 4px; */
+    -webkit-box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, 0.075);
+    box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, 0.075);
+    /* -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; */
+    /* transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; */
+    box-shadow: none;
+    border: 1px solid hsl(0, 100%, 100%);
+    font-weight: normal; font-size: 12px;
+}
+
+.radiobox{display: inline-block;
+background-color: hsl(0, 0%, 56%);
+border-color: hsl(0, 5%, 14%);
+border-width: 1px;
+border-style: solid;
+width: 207px;
+color: hsl(0, 100%, 100%); margin-bottom:2px;}
+.dropdown{
+display: block;
+width: 90%;
+padding: 3px 4px;
+line-height: 1.42857143;
+color: hsl(0, 0%, 33%);
+background-color: hsl(0, 100%, 100%);
+background-image: none;
+height: 25px;
+margin-left: 2px;
+border: 1px solid hsl(0, 0%, 80%);
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+margin-bottom: 3px;
+/* border-bottom: none; */
+}
+
+.txtrmk {
+border:#5a0000 1px solid;
+background-color:#ffffff;
+width:190px;
+height:32px;
+font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#000000;
+margin-top:0px;
+margin-right:0px;
+margin-left:1px;
+margin-bottom:1px;
+}
+.txtac{
+display: block;
+width: 95%;
+padding: 3px 12px;
+line-height: 1.42857143;
+color: hsl(0, 0%, 33%);
+background-color: hsl(0, 100%, 100%);
+background-image: none;
+border: 1px solid hsl(0, 0%, 80%);
+/* border-radius: 4px; */
+/* -webkit-box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, 0.075); */
+/* box-shadow: inset 1px 0px 0px hsla(0, 46%, 15%, 0.075); */
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+margin-bottom: 3px;
+box-shadow: 0px 2px 0px hsl(0, 1%, 68%);
+}
+.txtacnew{
+margin: 0px 1px;
+margin-bottom:12px;
+    border: 1px solid #5a0000;
+    background-color:#ffffff;
+    font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    color:#000000;
+}
+
+.txtnormal{
+display: block;
+width: 95%;
+padding: 3px 5px;
+line-height: 1.42857143;
+color: hsl(0, 0%, 33%);
+background-color: hsl(0, 100%, 100%);
+background-image: none;
+border: 1px solid hsl(0, 0%, 80%);
+/* border-radius: 4px; */
+/* -webkit-box-shadow: inset 0 1px 1px hsla(0, 0%, 0%, 0.075); */
+/* box-shadow: inset 1px 0px 0px hsla(0, 46%, 15%, 0.075); */
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+margin-bottom: 3px;
+/* border-bottom: none; */
+
+}
+.txtnor{
+border:#5a0000 1px solid;
+background-color:#ffffff;
+height:20px;
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#000000;
+margin-top:0px;
+margin-right:1px;
+margin-left:0px;
+margin-bottom:0px;
+}
+.compn{
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:Navy;
+padding-left:1px;
+}
+.finy{
+font: bold 11px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:Navy;
+padding-left:1px;
+}
+.red{
+color: hsl(0, 98%, 57%);
+padding-left: 2px;
+font-size: 14px;
+font-family: monospace;
+}
+.Navy{
+font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:Navy;
+padding-left:2px;
+}
+.btncenter {
+background-image:url('../images2/submit.jpg');
+background-repeat:repeat-x;
+height:18px;
+border: 1px solid #000000;
+width:80px;
+height:20px;
+color:#FFFFFF;
+margin-bottom:2px;
+margin-top:2px;
+font-style:normal; font-variant:normal; font-weight:bold; font-size:11px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+.submit {
+background-image:url('../images1/menu_mid.jpg');
+background-repeat:repeat-x;
+height:18px;
+border: 1px solid #000000;
+width:80px;
+height:20px;
+color:#FFFFFF;
+
+margin-bottom:2px;
+margin-top:2px;
+float:left; font-style:normal; font-variant:normal; font-weight:bold; font-size:11px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+
+.reset {
+background-image:url('../images2/submit.jpg');
+background-repeat:repeat-x;
+height:18px;
+border: 1px solid #000000;
+width:80px;
+height:20px;
+color:#FFFFFF;
+margin-left:5px;
+margin-bottom:2px;
+margin-top:2px;
+float:left; font-style:normal; font-variant:normal; font-weight:bold; font-size:11px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+
+
+
+.fotter{
+background-image: url('images2/footer.jpg');
+width:950px;
+height:30px;
+background-color:#FFFFFF
+}
+
+.fotter2{
+background-image: url('images2/footer_bg.jpg');
+background-repeat: repeat-x;
+height:38px
+}
+
+.body_rep{
+background-image:url('../images2/body_rep.jpg');
+width:950px;
+background-repeat:repeat-y
+}
+.body_rep2{
+background-image: url('../images2/body_rep2.jpg');
+background-repeat:repeat-x;
+height:100px
+}
+
+.grid{
+border:1px solid #5a0000;
+background-image:url('../images/grid_bg.jpg');
+background-repeat:repeat-x;
+height:25px;
+color: #000000;
+padding-left:5px;
+margin-left:5px;
+margin-bottom:5px;
+text-align:left; font-style:normal; font-variant:normal; font-weight:bold; font-size:13px; font-family:Lucida Grande, Trebuchet MS, Verdana, Helvetica, sans-serif
+}
+
+.grid_column{
+border-bottom:#5a0000 1px solid;
+border-left:#5a0000 1px solid;
+border-right:#5a0000 1px solid;
+background-color:#fefdf5;
+height:20px;
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color:#00419c;
+padding-left:5px;
+margin-bottom:5px;
+text-align:left;
+}
+.rGrid { width: 100%; background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; font: bold 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif; }
+ .rGrid td { padding: 3px 0 4px 0;  border: solid 1px #c1c1c1; color: #717171; }
+ .rGrid th { padding: 5px; color: #fff; background: #424242 url('../images2/grd_head.png') repeat-x top; border-left: 1px solid #525252; font-size: 1em }
+.rGrid .alt { background: #fcfcfc url('../images2/grd_alt.png') repeat-x top; }
+.rgridclt{ color: Black; font-size:11px; }
+
+.mGrid {  color: Black; background-color: #fff; margin: 1px 0 0px 0; border: solid 1px #525252; border-collapse:collapse; font: bold 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;}
+ .mGrid td { padding: 1px; border: solid 1px #c1c1c1; color: Black; }
+ .mGrid th { color: #000; background: #424242 url('../images2/grd_head.png') repeat-x top; border-left: 1px solid #525252; font-size: 1em; padding-left:3px; padding-right:3px; padding-top:2px; padding-bottom:2px }
+.mGrid .alt { background: #fcfcfc url('../images2/grd_alt.png') repeat-x top; }
+.mGrid .pgr {background: #424242 url('../images2/grd_pgr.png') repeat-x top; }
+ .mGrid .pgr table { margin: 2px 0; }
+ .mGrid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }   
+ .mGrid .pgr a { color: #666; text-decoration: none; }
+ .mGrid .pgr a:hover { color: #000; text-decoration: none; }
+ 
+ 
+.modalBackground
+{
+background-color: White;
+filter: alpha(opacity=80);
+opacity: 0.8;
+z-index: 10000;
+}
+ input[type=submit]{ margin-right:5px;}
+.amtspanred{
+color: red;
+text-align:left;
+font-style:normal;
+ font-variant:normal;
+  font-weight:bold; font-size:12px; 
+}
+.amtspannavy{
+color: navy;
+text-align:left;
+font-style:normal;
+ font-variant:normal;
+  font-weight:bold; font-size:13px; 
+}
+.completionList
+        {
+            border: solid 1px Gray;
+            margin: 0px;
+            padding: 3px;
+            height: 220px;
+            overflow: auto;
+            position: relative;
+            background-color: #FFFFFF; z-index:999999;
+        }
+        .listItem
+        {
+            color: #191919;
+            position: relative;
+        }
+        .itemHighlighted
+        {
+            background-color: #ADD6FF;
+        }
+        .ui-autocomplete
+        {
+            position: relative !important;
+        }

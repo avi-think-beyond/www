@@ -1,0 +1,360 @@
+/* CSS Document */
+
+.myGridNew
+.myGridNew table{ width:75%;border: solid 1px #99ccff; 
+	font: +BODY;  font-size:12px; color:#000080; 
+	border: 1px solid #000000;
+	cursor:default;}
+.myGridNew th
+{
+    background-color: #DDEEF7;
+    background: #424242 url('../images2/grd_head.png') repeat-x top;
+    font: +BODY;
+    font-size: 12px;
+    padding: 2px 5px;
+    font-weight:bold;
+    border: 1px solid #000000;
+    color: #fff;
+    cursor:default;
+}
+.myGridNew tr{background-color:#fcfcfc;  font: +BODY; cursor:default;padding:0px 3px; border: 1px solid #000000; }
+.myGridNew tr:nth-child(odd)
+{
+	background-color: #f1f5ed;
+	font: +BODY;
+	 font-weight:bold;
+	   font-size: 11px;
+	padding: 2px 4px;
+	border: 1px solid #000000;
+	cursor:default;
+}
+.myGridNew td
+{
+	cursor:default;
+       font-size: 11px;
+    padding: 2px 4px  2px 3px;
+       
+        font-weight:bold;
+    border: 1px solid #000000;
+    color: #003399;
+} 
+.myGridNew td last-child {width:0%; border: 0px;overflow:hidden;cursor:default;} 
+
+.myGridNew td span{overflow:hidden; text-overflow:ellipsis;white-space: nowrap;cursor:default; max-width:150px;
+}
+.myGridNew1 
+{
+    width: 80%;
+    border: solid 1px #99ccff;
+    font: +BODY;
+    font-size: 12px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    margin-top:30px;
+    cursor:default;
+    
+}
+.myGridNew1 th
+{
+    background-color: #DDEEF7;
+    font: +BODY;
+    font-size: 11px;
+    padding: 0px 3px;
+    border: 1px solid #000000;
+    color:Black;
+    cursor:default;
+}
+.myGridNew1 tr{background-color:#fcfcfc; font: +BODY; padding:0px 3px; border: 1px solid #000000; cursor:default;}
+.myGridNew1 tr:nth-child(odd)
+{
+    background-color: #EAF5FF;
+    font: +BODY;
+    padding: 0px 3px;
+    border: 1px solid #000000;
+    cursor:default;
+}
+.myGridNew1 td
+{
+    min-width: 0px;
+    max-width:580px;
+    padding: 0px 3px;
+    border: 1px solid #000000;
+    color: #003399;
+overflow:hidden; text-overflow:ellipsis;white-space:nowrap;
+    cursor:default;
+} 
+
+.myGridNew1 td last-child {width:0%; border: 0px;cursor:default;} 
+
+.myGridNew1 td span{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;cursor:default;}
+.myGridNew1 input[type="checkbox"]
+{
+    border:none;
+}
+.mgrd{
+    width:280px;
+       font-size: 11px;
+    padding: 2px 4px  2px 3px;
+       cursor:pointer;
+        font-weight:bold;
+    border: 1px solid #000000;
+    color: #003399;
+   display:block;
+} 
+
+
+.outside_border
+{
+border-left:1px solid #044c98;
+border-right:1px solid #044c98;
+background-color:#FFFFFF;
+}
+
+.line
+{
+background-color:#061b2b;
+}
+
+.fotter
+{
+background-image:url(../images/fotter_img.gif);
+height:22px;
+}
+
+.copy_right
+{
+font-family: Verdana;
+color:#ffffff;
+font-size:11px;
+font-weight:normal;
+padding:5px 0px 6px 5px;
+}
+
+.logout{
+font-family:Verdana;
+font-size:11px;
+color:#f5f51d;
+font-weight:bold;
+padding-top:5px;
+padding-right:5px;
+padding-bottom:3px;
+padding-left:3px;
+text-decoration:none;
+}
+
+
+.logout a:hover {
+	color: #ffffff;
+	text-decoration:none;
+}
+
+
+.lfet_pannel_bg{
+background-image: url(../images/left_bg.jpg);
+}
+
+left_btn_txt_1 {
+font-family: Verdana;
+color:#ffffff;
+font-size:10px;
+font-weight:normal;
+padding:5px 2px 10px 3px;
+text-decoration:none;
+}
+
+.left_btn_txt a {
+font-family: Verdana;
+color:#ffffff;
+font-size:10px;
+font-weight:normal;
+padding:5px 2px 10px 3px;
+text-decoration:none;
+}
+
+
+.left_btn_txt:hover {
+color:#f5f51d;
+text-decoration:none;
+}
+
+.activateA:visited {
+font-family: Verdana;
+color:#e7fd4f;
+font-size:10px;
+font-weight:normal;
+padding:5px 2px 10px 3px;
+text-decoration:none;
+}
+
+
+
+
+
+.border{
+border-bottom:1px solid #f5f51d;
+}
+
+.top-menu_1 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 28px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-image: url(../images/top-menu-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border: 1px solid #CCCCCC;
+}
+
+
+.top-menu a {
+    font-family: Verdana;
+	font-weight: normal;
+	font-size: 10px;
+	text-decoration: none;
+	background-image: url(../images/top-menu-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	float: left;
+	height: 28px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #3D76BB;
+	line-height: 28px;
+}
+.top-menu a:hover 
+{
+	font-family: Verdana;
+	font-weight: normal;
+	text-decoration: none;
+	background-image: url(../images/over2a.jpg);
+	float: left;
+	height: 28px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #333333;
+	text-transform: uppercase;
+	font-size: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #3D76BB;
+	line-height: 28px;
+	color: #333333;
+
+}
+
+.activate:visited {
+	font-family: Verdana;
+	font-weight: normal;
+	text-decoration: none;
+	background-image: url(../images/top-menu-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	float: left;
+	height: 28px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #333333;
+	text-transform: uppercase;
+	font-size: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #3D76BB;
+	line-height: 28px;
+	color: #333333;
+}
+
+ 
+
+.user_box
+{
+font-family:Verdana;
+color:#FFFFFF;
+font-size:11px;
+font-weight: normal;
+padding:3px 0px 5px 15px;
+background:#0f549c;
+border:2px solid #0c2d62;
+width:300px;
+height:22px;
+}
+
+.box_rep{
+	background-image: url(../images/2.jpg);
+	height:10px;
+}
+
+.email_feedback_3 {
+border:#818181 1px solid;
+background-color:#fbfbfb;
+width:140px;
+height:18px;
+font-family:Arial;
+font-size:12px;
+color:#1a5ba1;
+margin-bottom:5px;
+margin-right:0px;
+margin-left:0px;
+
+}
+
+.user_txt
+{
+font-family:Verdana;
+color:#707070;
+font-size:12px;
+font-weight: normal;
+padding:3px 0px 13px 3px;
+
+}
+
+.submit {
+background-color:#1a5ba1;
+border: #000000 1px solid;
+width:60px;
+height:18px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#FFFFFF;
+padding-bottom:3px;
+margin-top:2px;
+}
+.user_rep
+{
+
+	background-image: url(../images/user_img.jpg);
+	height:245px;
+}
+
+
+       body 
+       {
+        font: 12px arial;
+       }
+	   .suggest_link 
+	   {
+	   background-color: #FFFFFF;
+	   padding: 2px 6px 2px 6px;
+	   }	
+	   .suggest_link_over
+	   {
+	   background-color: #3366CC;
+	   padding: 2px 6px 2px 6px;	
+	   }	
+	   #searchsuggest 
+	   {
+		
+	   
+	   background-color: #FFFFFF;
+	   text-align: left;
+	   border: 1px solid #000000;
+	   	
+	   		
+	   }

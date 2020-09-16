@@ -1,0 +1,366 @@
+[19-Nov-2019 13:58:56 UTC] PHP Notice:  Undefined index: uid in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 21
+[19-Nov-2019 14:00:18 UTC] PHP Notice:  Undefined index: uid in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 21
+[19-Nov-2019 14:07:54 UTC] PHP Notice:  Undefined index: uid in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 21
+[20-Nov-2019 05:39:37 UTC] PHP Notice:  Undefined index: uid in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 21
+[20-Nov-2019 11:34:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getProductData(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 24 and exactly 3 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:272
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(24): Product->getProductData(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 272
+[20-Nov-2019 11:35:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getProductData(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 24 and exactly 3 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:272
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(24): Product->getProductData(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 272
+[20-Nov-2019 11:36:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getProductData(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 25 and exactly 3 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:272
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(25): Product->getProductData(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 272
+[20-Nov-2019 11:36:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getProductData(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 25 and exactly 3 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:272
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(25): Product->getProductData(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 272
+[20-Nov-2019 11:37:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getProductData(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 25 and exactly 3 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:272
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(25): Product->getProductData(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 272
+[22-Nov-2019 08:39:31 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:41 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:41 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:42 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:42 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:42 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:42 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:43 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:43 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:43 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:40:43 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:05 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:05 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:05 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:05 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:05 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:05 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:06 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:06 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:06 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:06 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:46 UTC] PHP Parse error:  syntax error, unexpected '$transaction_ID' (T_VARIABLE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 315
+[22-Nov-2019 08:41:56 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:58 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:58 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[22-Nov-2019 08:41:58 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 323
+[23-Nov-2019 07:13:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::saleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->saleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:21:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:23:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:24:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[23-Nov-2019 07:24:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getSaleproduct(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 40 and exactly 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:431
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(40): Product->getSaleproduct(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 431
+[02-Dec-2019 06:32:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getAvailableQty(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 53 and at least 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:484
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(53): Product->getAvailableQty(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 484
+[02-Dec-2019 06:32:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Product::getAvailableQty(), 1 passed in /home/xcquezdh4cjj/public_html/erp/controller/adminController.php on line 53 and at least 2 expected in /home/xcquezdh4cjj/public_html/erp/class/class.product.php:484
+Stack trace:
+#0 /home/xcquezdh4cjj/public_html/erp/controller/adminController.php(53): Product->getAvailableQty(Array)
+#1 {main}
+  thrown in /home/xcquezdh4cjj/public_html/erp/class/class.product.php on line 484
+[05-Dec-2019 11:18:12 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/aq4d3k79meex/public_html/hudacargo.com/500fashion/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/aq4d3k79meex/public_html/hudacargo.com/500fashion/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/aq4d3k79meex/public_html/hudacargo.com/500fashion/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/aq4d3k79meex/public_html/hudacargo.com/500fashion/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/aq4d3k79meex/public_html/hudacargo.com/500fashion/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[11-Dec-2019 10:38:01 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead(NULL)
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile(NULL)
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(NULL)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[12-Dec-2019 11:15:05 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[18-Dec-2019 11:06:09 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[18-Dec-2019 11:07:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PHPExcel_Shared_ZipArchive::statName() in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/OOCalc.php:89
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_OOCalc->canRead('/tmp/phpb8G487')
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('/tmp/phpb8G487')
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/OOCalc.php on line 89
+[18-Dec-2019 11:07:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PHPExcel_Shared_ZipArchive::statName() in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/OOCalc.php:89
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_OOCalc->canRead('/tmp/phpDyHJx7')
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('/tmp/phpDyHJx7')
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/OOCalc.php on line 89
+[21-Dec-2019 10:14:08 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[30-Dec-2019 06:49:45 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[30-Dec-2019 06:54:20 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[06-Jan-2020 09:45:51 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/class/class.product.php(124): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[02-Mar-2020 14:45:55 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php(153): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[02-Mar-2020 14:54:17 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php(153): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[02-Mar-2020 15:12:15 UTC] PHP Fatal error:  Uncaught PHPExcel_Reader_Exception: Could not open  for reading! File does not exist. in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php:82
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/IOFactory.php(280): PHPExcel_Reader_Excel2007->canRead('')
+#1 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php(153): PHPExcel_IOFactory::createReaderForFile('')
+#2 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/controller/adminController.php(20): Product->productImport(Array)
+#3 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/PHPExcel/Classes/PHPExcel/Reader/Excel2007.php on line 82
+[04-Mar-2020 18:03:55 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 693
+[09-Mar-2020 15:12:10 UTC] PHP Parse error:  syntax error, unexpected '$group_by' (T_VARIABLE) in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 653
+[09-Mar-2020 17:24:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 719
+[09-Mar-2020 17:48:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 719
+[09-Mar-2020 17:48:07 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 719
+[09-Mar-2020 18:02:38 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php:718
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/controller/adminController.php(70): Product->getBigDataReport(Array)
+#1 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 718
+[09-Mar-2020 18:02:47 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php:718
+Stack trace:
+#0 /home/ln0cfwtfxax2/public_html/500erp_ashutosh/controller/adminController.php(70): Product->getBigDataReport(Array)
+#1 {main}
+  thrown in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 718
+[10-Mar-2020 17:15:08 UTC] PHP Parse error:  syntax error, unexpected ''</tr>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 753
+[10-Mar-2020 17:15:12 UTC] PHP Parse error:  syntax error, unexpected ''</tr>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 753
+[10-Mar-2020 17:41:52 UTC] PHP Parse error:  syntax error, unexpected '$tbody' (T_VARIABLE) in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 758
+[10-Mar-2020 17:41:53 UTC] PHP Parse error:  syntax error, unexpected '$tbody' (T_VARIABLE) in /home/ln0cfwtfxax2/public_html/500erp_ashutosh/class/class.product.php on line 758
